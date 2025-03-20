@@ -15,8 +15,8 @@ header {
 .logo {
     display: block;
     margin: 0 auto 10px;
-    width: 150px; /* Adjust the width */
-    height: 50px; /* Adjust the height */
+    width: 200px;
+    height: auto;
 }
 
 h1, h2 {
@@ -27,7 +27,7 @@ main {
     padding: 20px;
 }
 
-.info, .apps, .pricing, .gallery {
+.info, .apps, .pricing, .gallery, .contact {
     background: white;
     padding: 15px;
     margin: 15px auto;
@@ -47,6 +47,20 @@ main {
     width: 150px;
     height: 150px;
     border-radius: 5px;
+}
+
+.contact p {
+    font-size: 16px;
+}
+
+.contact a {
+    color: #d60000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
 }
 
 footer {
