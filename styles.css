@@ -3,21 +3,29 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    text-align: center;
 }
 
 header {
     background: #333;
     color: white;
     padding: 20px;
+    display: flex;
+    align-items: center;  /* Align logo and title vertically */
+    justify-content: left;
 }
 
 .logo {
-    display: block;
-    margin: 0 auto 10px;
-    width: 200px;
-    height: auto;
+    height: 60px; /* Adjust the height while keeping aspect ratio */
+    width: auto;
+    margin-right: 15px; /* Adds space between logo and title */
 }
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
 
 h1, h2 {
     color: #333;
